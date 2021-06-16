@@ -4,7 +4,7 @@ const hbs = require('handlebars');
 const fs = require('fs');
 const Pusher = require('pusher');
 
-let visitorCount = 0;
+let visitorCount = 1;
 const updatesChannel = 'visitor-updates';
 
 module.exports.home = (event, context, callback) => {
